@@ -1,5 +1,5 @@
 # GPT3Info React App Landing Page
-Welcome to the GPT3Info React App Landing Page! This landing page is designed to showcase the features and benefits of the GPT3Info React App.
+Welcome to the GPT3Info React App Landing Page! This landing page is designed to showcase the features and benefits of the GPT3 Open AI.
 
 # Getting Started
 To get started with the GPT3Info React App Landing Page, simply follow these steps:
