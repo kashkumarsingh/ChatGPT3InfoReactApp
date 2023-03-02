@@ -1,0 +1,81 @@
+
+.gpt3__primary{
+   background-color: #ff8800;
+   color:var(--white);
+   border:#ff8800;
+   width: 180px;
+   height: 45px;
+}
+.gradient__bg,.gpt3__header {
+
+  /* ff 3.6+ */
+
+  /* safari 5.1+,chrome 10+ */
+
+  /* opera 11.10+ */
+
+  /* ie 10+ */
+
+  /* global 92%+ browsers support */
+  background: -o-radial-gradient(2% 25%, circle, rgba(44, 43, 43, 1) 0%, rgba(27, 27, 27, 1) 100%);
+  background: radial-gradient(circle at 2% 25%, rgba(44, 43, 43, 1) 0%, rgba(27, 27, 27, 1) 100%);
+
+}
+
+.gradient__text{
+    background-color: var(--color-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding{
+  padding:4rem 0;
+}
+.section__margin{
+  margin:4rem 6rem;
+}
+
+.gpt3__navbar-links_logo img{
+  width:100%;
+  height: auto;
+  max-width: 150px;
+}
+
+.gpt3__navbar-links   .navbar-nav .nav-item a{
+     font-family: var(--font-family);
+}
+
+.gpt3__navbar-buttons{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gpt3__navbar-buttons button{
+    margin-right: 5px;
+}
+
+.gpt3__navbar-buttons button:last-of-type{
+  margin-right: 0;
+}
+
+@media screen and (max-width:700px){
+   .section__padding{
+    padding: 4rem;
+   }
+   .section__margin{
+     margin:4rem;
+   }
+}
+@media screen and (max-width:550px){
+  .section__padding{
+   padding: 4rem 2rem;
+  }
+  .section__margin{
+    margin:4rem 2rem;
+  }
+}

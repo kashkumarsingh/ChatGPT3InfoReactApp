@@ -1,0 +1,34 @@
+.gpt3__header{
+    position: relative;
+    padding: 4rem 0 0;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.gpt3__header-left{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.gpt3__header .gpt3__header-left h1{
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.gpt3__header .gpt3__header-left p{
+    color:#fff;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.gpt3__header .gpt3__header-left  button a{
+    color:var(--white);
+    text-decoration: none;
+}
+.gpt3__header .gpt3__header-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.gpt3__header .gpt3__header-right img{width: 576px;}
